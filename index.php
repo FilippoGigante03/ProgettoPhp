@@ -8,6 +8,8 @@
     <body>
       <p>Hello World!</p>
       <?php
+      
+       $_POST['name'] = "Denniss";
         $users = $_POST["0"];
         $name = $_POST["pippo"];
         $id = $_POST["a01"];
@@ -31,6 +33,7 @@
         $id4 = $_POST["d04"];
         $mail4 = $_POST["ravleen@gmail.com"];
         $hashPassword4 = $_POST["pijpijpijkR3"];
+        echo $users;
         echo <<< OUTPUT
           <p>$users, $name, $id, $mail, $hashPassword</p>
           <p>$users2, $name2, $id2, $mail2, $hashPassword2</p>
@@ -38,5 +41,6 @@
           <p>$users4, $name4, $id4, $mail4, $hashPassword4</p>
           OUTPUT
       ?>
+      <p></p>
     </body>
 </html>
