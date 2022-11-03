@@ -32,7 +32,7 @@
         $id4 = $_POST["d04"];
         $mail4 = $_POST["ravleen@gmail.com"];
         $hashPassword4 = $_POST["pijpijpijkR3"];
-        echo $users;
+        echo "$users,";
         echo <<< OUTPUT
           <p>$users, $name, $id, $mail, $hashPassword</p>
           <p>$users2, $name2, $id2, $mail2, $hashPassword2</p>
