@@ -9,8 +9,7 @@
       <p>Hello World!</p>
       <?php
       
-       $_POST['name'] = "Denniss";
-        $users = $_POST["0"];
+        $users = 0;
         $name = $_POST["pippo"];
         $id = $_POST["a01"];
         $mail = $_POST["pippo@gmail.com"];
